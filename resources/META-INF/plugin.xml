@@ -1,8 +1,8 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.github.easyzhang.up.dsf.helper</id>
+  <name>DSF-HELPER</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="zhangyi02@daojia-inc.com" url="http://www.daojia.com">Daojia</vendor>
 
   <description><![CDATA[
       Enter short description for your plugin here.<br>
@@ -29,7 +29,9 @@
   </extensions>
 
   <actions>
-    <!-- Add your actions here -->
+    <action id="Test" class="com.github.easyzhang.TestAction" text="Say Hello!">
+      <add-to-group group-id="WindowMenu" anchor="first"/>
+    </action>
   </actions>
 
 </idea-plugin>
